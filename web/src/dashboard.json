@@ -1,0 +1,87 @@
+{
+  "metrics": [
+    {
+      "label": "Registros analizados",
+      "value": "50 494"
+    },
+    {
+      "label": "Con seguro",
+      "value": "43 235"
+    },
+    {
+      "label": "Sin seguro",
+      "value": "6 557"
+    },
+    {
+      "label": "Sin seguro · respuestas válidas",
+      "value": "13,2 %"
+    }
+  ],
+  "figures": [
+    {
+      "id": "01",
+      "title": "Registros por mes",
+      "summary": "El mes con más registros fue 2021-03, con 5 823. La línea muestra el volumen registrado.",
+      "alt": "Línea mensual de la cantidad de registros."
+    },
+    {
+      "id": "02",
+      "title": "Tenencia de seguro",
+      "summary": "Se registraron 43 235 respuestas con seguro, 6 557 sin seguro y 702 sin dato.",
+      "alt": "Anillo con el total de cada categoría de seguro."
+    },
+    {
+      "id": "03",
+      "title": "Registros por sexo",
+      "summary": "Este gráfico describe la composición de los registros, incluidos los casos con el dato faltante.",
+      "alt": "Barras horizontales con registros por sexo."
+    },
+    {
+      "id": "04",
+      "title": "Porcentaje sin seguro por edad",
+      "summary": "En el conjunto, 13,2 % de las respuestas válidas indicaron que no tenían seguro. Cada barra usa las respuestas válidas de su grupo.",
+      "alt": "Columnas con porcentaje sin seguro por grupo de edad."
+    },
+    {
+      "id": "05",
+      "title": "Distribución de edades",
+      "summary": "El histograma agrupa las edades válidas en intervalos de diez años.",
+      "alt": "Histograma de edades."
+    },
+    {
+      "id": "06",
+      "title": "Talla y peso",
+      "summary": "Cada punto resume un intervalo de talla y peso con al menos 10 registros. El tamaño representa la frecuencia.",
+      "alt": "Dispersión de grupos agregados de talla y peso."
+    },
+    {
+      "id": "07",
+      "title": "Problemas de salud reportados",
+      "summary": "Se muestran las cinco respuestas más frecuentes entre los registros que reportaron algún problema.",
+      "alt": "Barras horizontales con las cinco respuestas más frecuentes."
+    },
+    {
+      "id": "08",
+      "title": "Formas de atención reportadas",
+      "summary": "Se muestran las cinco respuestas más frecuentes entre quienes indicaron una forma de atención.",
+      "alt": "Barras horizontales con las cinco respuestas más frecuentes."
+    },
+    {
+      "id": "09",
+      "title": "Cobertura de seguro por edad",
+      "summary": "Los segmentos muestran el número de registros con seguro, sin seguro y sin dato en cada grupo con edad válida.",
+      "alt": "Barras apiladas por grupo de edad y cobertura."
+    },
+    {
+      "id": "10",
+      "title": "Seguro según sexo registrado",
+      "summary": "Se comparan los conteos con y sin seguro entre los dos grupos consignados. Se excluyen los registros sin dato en sexo o seguro.",
+      "alt": "Columnas agrupadas por sexo y tenencia de seguro."
+    }
+  ],
+  "missing": 702,
+  "districts": [
+    "San Borja"
+  ],
+  "valid": 49792
+}
