@@ -1,0 +1,917 @@
+{
+  "total": 50494,
+  "insured": 43235,
+  "uninsured": 6557,
+  "missing": 702,
+  "uninsuredRate": 13.2,
+  "charts": [
+    {
+      "id": "01",
+      "title": "Registros por mes",
+      "type": "line",
+      "labels": [
+        "2020-04",
+        "2020-05",
+        "2020-06",
+        "2020-07",
+        "2020-08",
+        "2020-09",
+        "2020-10",
+        "2020-11",
+        "2020-12",
+        "2021-01",
+        "2021-02",
+        "2021-03",
+        "2021-04",
+        "2021-05",
+        "2021-06",
+        "2021-07",
+        "2021-08",
+        "2021-09",
+        "2021-10",
+        "2021-11",
+        "2021-12",
+        "2022-01",
+        "2022-02",
+        "2022-03",
+        "2022-04",
+        "2022-05",
+        "2022-06",
+        "2022-07",
+        "2022-08",
+        "2022-09",
+        "2022-10"
+      ],
+      "series": [
+        {
+          "label": "Registros",
+          "values": [
+            31,
+            159,
+            639,
+            323,
+            2006,
+            3689,
+            4668,
+            4537,
+            3150,
+            4776,
+            4130,
+            5823,
+            2758,
+            2665,
+            1437,
+            613,
+            1469,
+            1317,
+            729,
+            1120,
+            903,
+            732,
+            482,
+            416,
+            475,
+            270,
+            121,
+            314,
+            512,
+            83,
+            147
+          ]
+        }
+      ],
+      "description": "Evolución del volumen de registros según la fecha del censo.",
+      "percent": false
+    },
+    {
+      "id": "02",
+      "title": "Tenencia de seguro",
+      "type": "doughnut",
+      "labels": [
+        "Con seguro",
+        "Sin seguro",
+        "Sin dato"
+      ],
+      "series": [
+        {
+          "label": "Registros",
+          "values": [
+            43235,
+            6557,
+            702
+          ]
+        }
+      ],
+      "description": "Selecciona una categoría en la leyenda para mostrarla u ocultarla.",
+      "percent": false
+    },
+    {
+      "id": "03",
+      "title": "Registros por sexo",
+      "type": "bar",
+      "labels": [
+        "Femenino",
+        "Masculino",
+        "Sin dato"
+      ],
+      "series": [
+        {
+          "label": "Registros",
+          "values": [
+            27532,
+            22335,
+            627
+          ]
+        }
+      ],
+      "description": "Distribución de los registros según el sexo consignado.",
+      "percent": false
+    },
+    {
+      "id": "04",
+      "title": "Sin seguro por grupo de edad",
+      "type": "bar",
+      "labels": [
+        "0–17",
+        "18–29",
+        "30–44",
+        "45–59",
+        "60+"
+      ],
+      "series": [
+        {
+          "label": "Sin seguro",
+          "values": [
+            12.4,
+            26.9,
+            16.1,
+            12.6,
+            7.0
+          ]
+        }
+      ],
+      "description": "Porcentaje calculado sobre las respuestas válidas de cada grupo de edad.",
+      "percent": true
+    },
+    {
+      "id": "05",
+      "title": "Distribución de edades",
+      "type": "bar",
+      "labels": [
+        "0–9",
+        "10–19",
+        "20–29",
+        "30–39",
+        "40–49",
+        "50–59",
+        "60–69",
+        "70–79",
+        "80–89",
+        "90–99",
+        "100–109",
+        "110+"
+      ],
+      "series": [
+        {
+          "label": "Registros",
+          "values": [
+            3719,
+            4288,
+            5461,
+            6305,
+            6910,
+            6932,
+            7218,
+            5683,
+            3174,
+            778,
+            26,
+            0
+          ]
+        }
+      ],
+      "description": "Histograma de edades agrupadas en intervalos de diez años.",
+      "percent": false
+    },
+    {
+      "id": "06",
+      "title": "Relación entre talla y peso",
+      "type": "scatter",
+      "labels": [],
+      "series": [
+        {
+          "label": "Grupos",
+          "values": [
+            {
+              "x": 142.5,
+              "y": 47.5,
+              "n": 21
+            },
+            {
+              "x": 142.5,
+              "y": 57.5,
+              "n": 19
+            },
+            {
+              "x": 142.5,
+              "y": 62.5,
+              "n": 13
+            },
+            {
+              "x": 147.5,
+              "y": 42.5,
+              "n": 23
+            },
+            {
+              "x": 147.5,
+              "y": 47.5,
+              "n": 70
+            },
+            {
+              "x": 147.5,
+              "y": 52.5,
+              "n": 112
+            },
+            {
+              "x": 147.5,
+              "y": 57.5,
+              "n": 114
+            },
+            {
+              "x": 147.5,
+              "y": 62.5,
+              "n": 80
+            },
+            {
+              "x": 147.5,
+              "y": 67.5,
+              "n": 52
+            },
+            {
+              "x": 147.5,
+              "y": 72.5,
+              "n": 38
+            },
+            {
+              "x": 152.5,
+              "y": 42.5,
+              "n": 50
+            },
+            {
+              "x": 152.5,
+              "y": 47.5,
+              "n": 287
+            },
+            {
+              "x": 152.5,
+              "y": 52.5,
+              "n": 811
+            },
+            {
+              "x": 152.5,
+              "y": 57.5,
+              "n": 719
+            },
+            {
+              "x": 152.5,
+              "y": 62.5,
+              "n": 651
+            },
+            {
+              "x": 152.5,
+              "y": 67.5,
+              "n": 351
+            },
+            {
+              "x": 152.5,
+              "y": 72.5,
+              "n": 243
+            },
+            {
+              "x": 152.5,
+              "y": 77.5,
+              "n": 79
+            },
+            {
+              "x": 152.5,
+              "y": 82.5,
+              "n": 83
+            },
+            {
+              "x": 152.5,
+              "y": 87.5,
+              "n": 20
+            },
+            {
+              "x": 152.5,
+              "y": 92.5,
+              "n": 11
+            },
+            {
+              "x": 157.5,
+              "y": 42.5,
+              "n": 27
+            },
+            {
+              "x": 157.5,
+              "y": 47.5,
+              "n": 199
+            },
+            {
+              "x": 157.5,
+              "y": 52.5,
+              "n": 835
+            },
+            {
+              "x": 157.5,
+              "y": 57.5,
+              "n": 1499
+            },
+            {
+              "x": 157.5,
+              "y": 62.5,
+              "n": 1426
+            },
+            {
+              "x": 157.5,
+              "y": 67.5,
+              "n": 913
+            },
+            {
+              "x": 157.5,
+              "y": 72.5,
+              "n": 518
+            },
+            {
+              "x": 157.5,
+              "y": 77.5,
+              "n": 311
+            },
+            {
+              "x": 157.5,
+              "y": 82.5,
+              "n": 159
+            },
+            {
+              "x": 157.5,
+              "y": 87.5,
+              "n": 67
+            },
+            {
+              "x": 157.5,
+              "y": 92.5,
+              "n": 79
+            },
+            {
+              "x": 157.5,
+              "y": 97.5,
+              "n": 22
+            },
+            {
+              "x": 157.5,
+              "y": 102.5,
+              "n": 11
+            },
+            {
+              "x": 162.5,
+              "y": 42.5,
+              "n": 17
+            },
+            {
+              "x": 162.5,
+              "y": 47.5,
+              "n": 108
+            },
+            {
+              "x": 162.5,
+              "y": 52.5,
+              "n": 482
+            },
+            {
+              "x": 162.5,
+              "y": 57.5,
+              "n": 1058
+            },
+            {
+              "x": 162.5,
+              "y": 62.5,
+              "n": 1766
+            },
+            {
+              "x": 162.5,
+              "y": 67.5,
+              "n": 1353
+            },
+            {
+              "x": 162.5,
+              "y": 72.5,
+              "n": 1130
+            },
+            {
+              "x": 162.5,
+              "y": 77.5,
+              "n": 668
+            },
+            {
+              "x": 162.5,
+              "y": 82.5,
+              "n": 359
+            },
+            {
+              "x": 162.5,
+              "y": 87.5,
+              "n": 142
+            },
+            {
+              "x": 162.5,
+              "y": 92.5,
+              "n": 106
+            },
+            {
+              "x": 162.5,
+              "y": 97.5,
+              "n": 28
+            },
+            {
+              "x": 162.5,
+              "y": 102.5,
+              "n": 28
+            },
+            {
+              "x": 162.5,
+              "y": 112.5,
+              "n": 10
+            },
+            {
+              "x": 167.5,
+              "y": 47.5,
+              "n": 12
+            },
+            {
+              "x": 167.5,
+              "y": 52.5,
+              "n": 175
+            },
+            {
+              "x": 167.5,
+              "y": 57.5,
+              "n": 497
+            },
+            {
+              "x": 167.5,
+              "y": 62.5,
+              "n": 861
+            },
+            {
+              "x": 167.5,
+              "y": 67.5,
+              "n": 1255
+            },
+            {
+              "x": 167.5,
+              "y": 72.5,
+              "n": 1512
+            },
+            {
+              "x": 167.5,
+              "y": 77.5,
+              "n": 1098
+            },
+            {
+              "x": 167.5,
+              "y": 82.5,
+              "n": 571
+            },
+            {
+              "x": 167.5,
+              "y": 87.5,
+              "n": 353
+            },
+            {
+              "x": 167.5,
+              "y": 92.5,
+              "n": 181
+            },
+            {
+              "x": 167.5,
+              "y": 97.5,
+              "n": 65
+            },
+            {
+              "x": 167.5,
+              "y": 102.5,
+              "n": 66
+            },
+            {
+              "x": 167.5,
+              "y": 107.5,
+              "n": 32
+            },
+            {
+              "x": 167.5,
+              "y": 112.5,
+              "n": 15
+            },
+            {
+              "x": 172.5,
+              "y": 52.5,
+              "n": 24
+            },
+            {
+              "x": 172.5,
+              "y": 57.5,
+              "n": 136
+            },
+            {
+              "x": 172.5,
+              "y": 62.5,
+              "n": 366
+            },
+            {
+              "x": 172.5,
+              "y": 67.5,
+              "n": 789
+            },
+            {
+              "x": 172.5,
+              "y": 72.5,
+              "n": 1245
+            },
+            {
+              "x": 172.5,
+              "y": 77.5,
+              "n": 1161
+            },
+            {
+              "x": 172.5,
+              "y": 82.5,
+              "n": 1127
+            },
+            {
+              "x": 172.5,
+              "y": 87.5,
+              "n": 590
+            },
+            {
+              "x": 172.5,
+              "y": 92.5,
+              "n": 316
+            },
+            {
+              "x": 172.5,
+              "y": 97.5,
+              "n": 136
+            },
+            {
+              "x": 172.5,
+              "y": 102.5,
+              "n": 76
+            },
+            {
+              "x": 172.5,
+              "y": 107.5,
+              "n": 39
+            },
+            {
+              "x": 172.5,
+              "y": 112.5,
+              "n": 22
+            },
+            {
+              "x": 172.5,
+              "y": 117.5,
+              "n": 13
+            },
+            {
+              "x": 172.5,
+              "y": 122.5,
+              "n": 14
+            },
+            {
+              "x": 177.5,
+              "y": 52.5,
+              "n": 10
+            },
+            {
+              "x": 177.5,
+              "y": 62.5,
+              "n": 54
+            },
+            {
+              "x": 177.5,
+              "y": 67.5,
+              "n": 161
+            },
+            {
+              "x": 177.5,
+              "y": 72.5,
+              "n": 410
+            },
+            {
+              "x": 177.5,
+              "y": 77.5,
+              "n": 632
+            },
+            {
+              "x": 177.5,
+              "y": 82.5,
+              "n": 759
+            },
+            {
+              "x": 177.5,
+              "y": 87.5,
+              "n": 541
+            },
+            {
+              "x": 177.5,
+              "y": 92.5,
+              "n": 475
+            },
+            {
+              "x": 177.5,
+              "y": 97.5,
+              "n": 229
+            },
+            {
+              "x": 177.5,
+              "y": 102.5,
+              "n": 117
+            },
+            {
+              "x": 177.5,
+              "y": 107.5,
+              "n": 41
+            },
+            {
+              "x": 177.5,
+              "y": 112.5,
+              "n": 25
+            },
+            {
+              "x": 177.5,
+              "y": 122.5,
+              "n": 13
+            },
+            {
+              "x": 177.5,
+              "y": 127.5,
+              "n": 11
+            },
+            {
+              "x": 182.5,
+              "y": 67.5,
+              "n": 23
+            },
+            {
+              "x": 182.5,
+              "y": 72.5,
+              "n": 80
+            },
+            {
+              "x": 182.5,
+              "y": 77.5,
+              "n": 189
+            },
+            {
+              "x": 182.5,
+              "y": 82.5,
+              "n": 294
+            },
+            {
+              "x": 182.5,
+              "y": 87.5,
+              "n": 316
+            },
+            {
+              "x": 182.5,
+              "y": 92.5,
+              "n": 351
+            },
+            {
+              "x": 182.5,
+              "y": 97.5,
+              "n": 231
+            },
+            {
+              "x": 182.5,
+              "y": 102.5,
+              "n": 135
+            },
+            {
+              "x": 182.5,
+              "y": 107.5,
+              "n": 31
+            },
+            {
+              "x": 182.5,
+              "y": 112.5,
+              "n": 42
+            },
+            {
+              "x": 182.5,
+              "y": 122.5,
+              "n": 15
+            },
+            {
+              "x": 187.5,
+              "y": 72.5,
+              "n": 13
+            },
+            {
+              "x": 187.5,
+              "y": 77.5,
+              "n": 14
+            },
+            {
+              "x": 187.5,
+              "y": 82.5,
+              "n": 52
+            },
+            {
+              "x": 187.5,
+              "y": 87.5,
+              "n": 75
+            },
+            {
+              "x": 187.5,
+              "y": 92.5,
+              "n": 109
+            },
+            {
+              "x": 187.5,
+              "y": 97.5,
+              "n": 40
+            },
+            {
+              "x": 187.5,
+              "y": 102.5,
+              "n": 34
+            },
+            {
+              "x": 187.5,
+              "y": 112.5,
+              "n": 17
+            },
+            {
+              "x": 192.5,
+              "y": 82.5,
+              "n": 11
+            },
+            {
+              "x": 192.5,
+              "y": 87.5,
+              "n": 13
+            },
+            {
+              "x": 192.5,
+              "y": 92.5,
+              "n": 34
+            },
+            {
+              "x": 192.5,
+              "y": 97.5,
+              "n": 31
+            },
+            {
+              "x": 192.5,
+              "y": 102.5,
+              "n": 24
+            },
+            {
+              "x": 192.5,
+              "y": 112.5,
+              "n": 16
+            }
+          ]
+        }
+      ],
+      "description": "Cada punto resume un grupo de al menos diez registros. Su tamaño representa la frecuencia.",
+      "percent": false
+    },
+    {
+      "id": "07",
+      "title": "Problemas de salud reportados",
+      "type": "horizontal",
+      "labels": [
+        "Alergia respiratoria con estornudos, picazón, congestión y secreción nasal",
+        "Síntoma de malestar como fiebre, tos, dificultad para respirar, dolor de garganta",
+        "Alergia de la piel con enrojecimiento, picazón o erupciones",
+        "Algún otro problema de salud ocurrido en las últimas 4 semanas",
+        "Recaída de enfermedad crónica"
+      ],
+      "series": [
+        {
+          "label": "Registros",
+          "values": [
+            1309,
+            1172,
+            405,
+            290,
+            272
+          ]
+        }
+      ],
+      "description": "Cinco categorías más frecuentes entre quienes reportaron algún problema.",
+      "percent": false
+    },
+    {
+      "id": "08",
+      "title": "Formas de atención reportadas",
+      "type": "horizontal",
+      "labels": [
+        "Clínica/Consulta Particular",
+        "Hospital Público (MINSA/ESSALUD/FFAA o PNP)",
+        "Usó medicamentos que ya tenía comprados",
+        "Consulta médica telefónica o virtual",
+        "Posta / Centro de Salud/ Policlínico ESSALUD"
+      ],
+      "series": [
+        {
+          "label": "Registros",
+          "values": [
+            1465,
+            819,
+            734,
+            450,
+            339
+          ]
+        }
+      ],
+      "description": "Cinco respuestas más frecuentes entre quienes reportaron una forma de atención.",
+      "percent": false
+    },
+    {
+      "id": "09",
+      "title": "Cobertura de seguro por edad",
+      "type": "stacked",
+      "labels": [
+        "0–17",
+        "18–29",
+        "30–44",
+        "45–59",
+        "60+"
+      ],
+      "series": [
+        {
+          "label": "Con seguro",
+          "values": [
+            5894,
+            4643,
+            8122,
+            8995,
+            15581
+          ]
+        },
+        {
+          "label": "Sin seguro",
+          "values": [
+            832,
+            1709,
+            1556,
+            1293,
+            1167
+          ]
+        },
+        {
+          "label": "Sin dato",
+          "values": [
+            340,
+            50,
+            85,
+            96,
+            131
+          ]
+        }
+      ],
+      "description": "Conteos por grupo de edad y estado del seguro.",
+      "percent": false
+    },
+    {
+      "id": "10",
+      "title": "Seguro según sexo registrado",
+      "type": "bar",
+      "labels": [
+        "Femenino",
+        "Masculino"
+      ],
+      "series": [
+        {
+          "label": "Con seguro",
+          "values": [
+            23725,
+            19073
+          ]
+        },
+        {
+          "label": "Sin seguro",
+          "values": [
+            3499,
+            2989
+          ]
+        }
+      ],
+      "description": "Comparación de las respuestas válidas por sexo registrado.",
+      "percent": false
+    }
+  ]
+}
